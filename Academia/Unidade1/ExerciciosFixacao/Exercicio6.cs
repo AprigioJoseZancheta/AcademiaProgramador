@@ -9,12 +9,12 @@ namespace Unidade1.ExerciciosFixacao
     /*Menu padrão*/
   class Exercicio6
   {
-        static void Main()
+        static void Main6()
         {
             Menu();
         }
     
-    public static void Menu6()
+    public static void Menu()
     {
         string opcao = "";
         Console.WriteLine(" MENU\n Digite(1) Padrão1\n Digite(2) Padrão2\n Digite(3) Padrão3\n Digite(4) Padrão4");
