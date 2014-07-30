@@ -11,7 +11,7 @@ namespace Unidade1.ExerciciosFixacao
     {
         static void Main5()
         {
-            for (int i = 0; i < 3; i++)
+            /*for (int i = 0; i < 4; i++)
             {
                 string s = "*";
                 for (int l = 1; l < 6; l++)
@@ -19,7 +19,7 @@ namespace Unidade1.ExerciciosFixacao
                     Console.WriteLine(s);
                     s += "*";
                 }
-            }
+            }*/
 
             for (int i = 0; i < 3; i++)
             {
