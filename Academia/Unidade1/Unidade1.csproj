@@ -48,6 +48,11 @@
     <Compile Include="ExercicioFixacao\Exercicio5.cs" />
     <Compile Include="ExercicioFixacao\Exercicio7.cs" />
     <Compile Include="ExercicioFixacao\Exercicio_6.cs" />
+    <Compile Include="ExerciciosComplmentares\Exercicio1.cs" />
+    <Compile Include="ExerciciosComplmentares\Exercicio2.cs" />
+    <Compile Include="ExerciciosComplmentares\Exercicio3.cs" />
+    <Compile Include="ExerciciosComplmentares\Exercicio4.cs" />
+    <Compile Include="ExerciciosComplmentares\Exercicio5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
