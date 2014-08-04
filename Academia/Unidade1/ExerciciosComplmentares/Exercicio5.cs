@@ -16,7 +16,7 @@ namespace Unidade1.ExercicioComplementar
      * calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90. */
     class Exercicio5
     {
-        static void Main()
+        static void Main5()
         {
             string opcao = "";
             double quantidadeLitros = 0;

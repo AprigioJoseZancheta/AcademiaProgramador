@@ -11,7 +11,7 @@ namespace Unidade1.ExercicioComplementar
      * senão escrever a mensagem 'Saldo Negativo'. */
     class Exercicio3
     {
-        static void Main()
+        static void Main3()
         {
             try
             {
