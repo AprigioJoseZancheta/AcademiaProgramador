@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1E9B7FD-45A0-4FF0-A503-FADEEEBA4227}</ProjectGuid>
+    <ProjectGuid>{9EA47EDF-B672-408B-B140-7C014151C08F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade1</RootNamespace>
-    <AssemblyName>Unidade1</AssemblyName>
+    <RootNamespace>Unidade2</RootNamespace>
+    <AssemblyName>Unidade2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,24 +41,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicioFixacao\Exercicio1.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio2.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio3.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio4.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio5.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio7.cs" />
-    <Compile Include="ExercicioFixacao\Exercicio_6.cs" />
-    <Compile Include="ExerciciosComplementares\Exercicio1.cs" />
-    <Compile Include="ExerciciosComplementares\Exercicio2.cs" />
-    <Compile Include="ExerciciosComplementares\Exercicio3.cs" />
-    <Compile Include="ExerciciosComplementares\Exercicio4.cs" />
-    <Compile Include="ExerciciosComplementares\Exercicio5.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioComplementares\Aluno.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioComplementares\Turma.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioComplementares\TurmaAlunos.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\Agencia.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\CartaoDeCredito.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\Cliente.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\Conta.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\ContaEAgencia.cs" />
+    <Compile Include="ExercicioAssociacao\ExercicioFixacao\TestaClienteCartao.cs" />
+    <Compile Include="ExercicioComplementar\Aluno.cs" />
+    <Compile Include="ExercicioComplementar\Funcionario.cs" />
+    <Compile Include="ExercicioComplementar\TestaAluno.cs" />
+    <Compile Include="ExercicioComplementar\TestaFuncionario.cs" />
+    <Compile Include="ExercicioComplementar\TestaTurma.cs" />
+    <Compile Include="ExercicioComplementar\Turma.cs" />
+    <Compile Include="ExercicioFixacao\Agencia.cs" />
+    <Compile Include="ExercicioFixacao\CartaoDeCredito.cs" />
+    <Compile Include="ExercicioFixacao\Cliente.cs" />
+    <Compile Include="ExercicioFixacao\Conta.cs" />
+    <Compile Include="ExercicioFixacao\Program.cs" />
+    <Compile Include="ExercicioFixacao\TestaConta.cs" />
+    <Compile Include="ExercicioFixacao\TestaValoresPadrao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
