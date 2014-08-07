@@ -43,8 +43,11 @@
   <ItemGroup>
     <Compile Include="Banco\Agencia.cs" />
     <Compile Include="Banco\CartaoDeCredito.cs" />
+    <Compile Include="Banco\Cliente.cs" />
     <Compile Include="Banco\Conta.cs" />
     <Compile Include="Banco\TestaConta.cs" />
+    <Compile Include="Complementar\ContasBanco.cs" />
+    <Compile Include="Complementar\TestaConta.cs" />
     <Compile Include="ExercicioAssociacao\ExercicioComplementares\Aluno.cs" />
     <Compile Include="ExercicioAssociacao\ExercicioComplementares\Turma.cs" />
     <Compile Include="ExercicioAssociacao\ExercicioComplementares\TurmaAlunos.cs" />

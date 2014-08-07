@@ -43,5 +43,14 @@ namespace Unidade2.Banco
         {
             return this.saldo + this.limite;
         }
+        public Conta(int numero, double limite): this(numero)
+        {
+            this.limite = limite;
+        }
+        public void Transferencia(Conta destino, double valor)
+        {
+            this.saldo -= valor;
+            destino.saldo += valor;
+        }
     }
 } 

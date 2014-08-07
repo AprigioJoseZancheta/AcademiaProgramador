@@ -8,22 +8,16 @@ namespace Unidade2.Banco
 {
     class TestaConta
     {
-        static void Main()
+        static void Main3()
         {
-            CartaoDeCredito cdc = new CartaoDeCredito(2333);
-            Agencia a = new Agencia(1333);
-            Conta c = new Conta(a);
+            Conta origem = new Conta(1223);
+            origem.saldo = 500;
+            Console.WriteLine("Saldo Origem {0} ", origem.saldo);
 
-            c.agencia = a;
-            c.ImprimeExtrato();
-            c.Deposita(1000);
-            c.ImprimeExtrato();
-
-            c.Saca(500);
-            c.ImprimeExtrato();
-
-            double saldoDisponivel = c.ConsultaSaldoDisponivel();
-            Console.WriteLine("Saldo Disponível: " + saldoDisponivel);
+            Conta destino = new Conta(1344);
+            origem.Transferencia(destino, 300);
+            Console.WriteLine("Saldo Destino {0} ", destino.saldo);
+            Console.WriteLine("Saldo Origem apos fazer a transferencia {0} ", origem.saldo);
             Console.ReadKey();
         }
     }
