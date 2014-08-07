@@ -8,7 +8,7 @@ namespace Unidade2.Complementar
 {
     class TestaConta
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             ContasBanco conta = new ContasBanco();
             Menu(conta);
@@ -48,8 +48,7 @@ namespace Unidade2.Complementar
                         break;
                     case "3": Console.Clear();
                               Console.WriteLine("Extrato Impresso");
-                              conta.ImprimiExtrato();
-                              
+                              conta.ImprimiExtrato();     
                         break;
 
                     default: Console.WriteLine("Opção Invalida");
