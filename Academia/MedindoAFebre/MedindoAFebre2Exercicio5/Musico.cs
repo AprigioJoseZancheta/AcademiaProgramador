@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unidade2.ExercicioComplementar
+namespace MedindoAFebre.MedindoAFebre2
 {
-    class Funcionario
+   
+    class Musico
     {
         public string nome;
-        public string cargo;
-        public string dataAdmissao;
+        public bool musicoSolo;
     }
 }
